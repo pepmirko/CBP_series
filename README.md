@@ -1,5 +1,10 @@
 # CBP Peptide Library — Cu(II) capture & Aβ helix-modulation
 
+This repository tracks a curated library of **designed peptides** intended to:
+1) **compete for Cu(II)** (Cu sequestration away from Aβ)  
+2) **modulate Aβ conformational equilibria**, with special interest in shifting populations away from β-prone states and toward **α-helical** character when possible.
+
+The library is organized for **high interpretability**: clean baselines, clamp variants, and mechanistic controls.
 ## What’s in this repo
 
 ### Core documents
