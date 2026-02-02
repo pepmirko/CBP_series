@@ -69,30 +69,26 @@ For each peptide (apo and Cu-bound) and for competition systems (Aβ + Cu + pept
 
 ---
 
-## Repository structure (suggested)
-If you are expanding the repo, the following structure works well:
+## Repository index (families)
 
-```
-.
-├── README.md
-├── consideration.md
-├── CBP_mapping.csv
-├── sequences/
-│   ├── cbp_library.fasta
-│   └── cbp_library.yml
-├── analysis/
-│   ├── dssp/
-│   ├── contacts/
-│   ├── metal_metrics/
-│   └── free_energy/
-└── scripts/
-    ├── build_fasta.py
-    ├── compute_lengths.py
-    ├── run_dssp.sh
-    └── summarize_contacts.py
-```
+This repository is the **main hub** of the CBP project (library + mapping tables).
+The four family-specific repositories below contain the corresponding structural ensembles.
 
-*(Your repo may differ; this is only a clean template.)*
+> Reference conditions (unless otherwise stated): PEP-FOLD4, pH 7.5, ionic strength 10 mM.
+
+### Families (sub-repositories)
+
+- **CBP_alphas** → https://github.com/pepmirko/CBP_alphas  
+  PEP-FOLD4 computed structures for the **alpha** family.
+
+- **CBP_betas** → https://github.com/pepmirko/CBP_betas  
+  PEP-FOLD4 computed structures for the **beta** family.
+
+- **CBP_gammas** → https://github.com/pepmirko/CBP_gammas  
+  PEP-FOLD4 computed structures for the **gamma** family.
+
+- **CBP_deltas** → https://github.com/pepmirko/CBP_deltas  
+  PEP-FOLD4 computed structures for the **delta** family.
 
 ---
 
