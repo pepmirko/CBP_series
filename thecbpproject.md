@@ -1,6 +1,5 @@
 # What is the CBP Project (CarusoBasilePeptides)
 
-## TL;DR
 **CBP (CarusoBasilePeptides)** is a set of *designed peptide libraries* intended to (i) **compete for Cu(II)** binding and (ii) **modulate Aβ (amyloid-β) conformational equilibria**, with the longer-term goal of promoting conformational states that are less compatible with oligomerization.
 
 This repository (**CBP_series**) is the **main hub**: it hosts the mapping tables and global documentation. Family-specific structural ensembles are stored in dedicated sub-repositories.
